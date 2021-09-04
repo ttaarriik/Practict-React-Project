@@ -1,0 +1,79 @@
+.Main {
+    background: #291f1f;
+    height: 100vh;
+    width: 100%;
+}
+
+.banner {
+    color: white;
+    background: #3b3434;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+.listWrapper {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    z-index: 9;
+    width: 65%;  
+    background: white;
+}
+
+.listItem {
+    background: white;
+    border-bottom: 1px wheat solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listItem ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+.name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.description {
+    font-style: italic;
+}
+
+.price {
+    font-size: 1.2rem;
+    color: orange;
+    font-weight: bold;
+}
+
+.button {
+    border-radius: 12px;
+    background: #a10827;
+    color: white;
+    padding: 0.2rem;
+    font-weight: bold;
+}
+
+.amount {
+   display: flex;
+   flex-direction: column;
+   
+}
+
+.amountInput {
+    display: flex;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.inputNumber {
+    width: 2rem;
+    margin-left: 0.5rem;
+}

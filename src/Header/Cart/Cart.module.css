@@ -1,0 +1,142 @@
+.cart {
+    display: flex; 
+    margin-right: 10rem; 
+    font-size: large;
+    background-color: #4d1601;
+    padding: 10px 40px;
+    border-radius: 14px;
+    cursor: pointer;
+  }
+  
+  .amount {
+      margin-left: 10px;
+      background-color: tomato;
+      border-radius: 14px;
+      padding: 0 10px;
+  }
+
+
+  .modal {
+    background: white;
+    color: black;
+    position: fixed;
+    top: 30%;
+    left: 30%;
+    z-index: 100;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.itemInfo {
+    display: flex;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px tomato solid;
+}
+
+.quantity {
+    margin-left: 3rem;
+    border: 1px rgba(0,0,0,0.2) solid;
+    padding: 0 0.2rem;
+    font-weight: bold;
+
+}
+
+.price {
+    font-size: 1.2rem;
+    color: orange;
+    font-weight: bold;
+}
+
+.buttons {
+    align-self: center;
+}
+
+.button {
+    font-size: large;
+    background-color: white;
+    border: 1px tomato solid;
+    margin-left: 0.5rem;
+    padding: 0 0.8rem;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: orange;
+}
+
+.button:active {
+    background-color: green;
+}
+
+.total {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.total div:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total div:nth-child(2){
+    align-self: flex-end;
+    margin-top: 1rem;
+}
+
+.closeButton {
+    border-radius: 10px;
+    padding: 0.3rem 1rem;
+    color: tomato;
+    border-color: rgba(0,0,0,0.2);
+    background-color: white;
+    margin-right: 1rem;
+}
+
+.orderButton {
+    border-radius: 10px;
+    padding: 0.3rem 1rem;
+    color: white;
+    background-color: darkred;
+    margin-right: 1rem;
+}
+
+.closeButton:hover, .orderButton:hover {
+    background-color: orange;
+}
+
+.totalAmountText {
+    font-size: large;
+    font-weight: bold;
+}
+
+.totalAmount {
+    font-size: large;
+    font-weight: bold;
+}
+
+
+
+.backlog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    z-index: 50;
+}
